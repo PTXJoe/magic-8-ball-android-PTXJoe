@@ -11,13 +11,41 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     tools:context=".MainActivity">
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp"
+        android:layout_marginTop="52dp"
         android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="288dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ball1" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="182dp"
+        android:layout_height="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:src="@drawable/gray-rounded-button_text" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_centerHorizontal="true"
+        android:text="ASK"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
