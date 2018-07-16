@@ -38,7 +38,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="71dp"
-        android:src="@drawable/gray-rounded-button"
+        android:src="@drawable/gray_rounded_button"
         android:contentDescription="@string/ImageButton" />
 
     <Button
