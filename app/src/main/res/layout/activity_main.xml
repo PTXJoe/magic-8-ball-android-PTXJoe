@@ -19,7 +19,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
-        android:text="TextView" />
+        android:text="@string/TextView"
+        android:contentDescription="@string/TextView" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -27,7 +28,8 @@
         android:layout_height="288dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/ball1" />
+        android:src="@drawable/ball1"
+        android:contentDescription="@string/ImageView" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -36,7 +38,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="71dp"
-        android:src="@drawable/gray-rounded-button" />
+        android:src="@drawable/gray-rounded-button"
+        android:contentDescription="@string/ImageButton" />
 
     <Button
         android:id="@+id/button2"
@@ -44,7 +47,7 @@
         android:layout_height="69dp"
         android:layout_alignBottom="@+id/imageButton4"
         android:layout_centerHorizontal="true"
-        android:text="ASK"
+        android:text="@string/Button"
         android:textSize="30sp"
         android:textStyle="bold" />
 
